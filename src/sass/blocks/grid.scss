@@ -1,0 +1,16 @@
+.grid {
+  margin: 200px 50px;
+}
+
+.grid__section {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+
+  span {
+    display: block;
+    border-radius: 5px;
+    background: #22ffc0;
+    height: 50px;
+  }
+}
